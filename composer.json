@@ -1,0 +1,21 @@
+{
+    "name": "mbmjertan/clique",
+    "description": "A microframework for CLI apps and services in PHP",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mario Borna Mjertan",
+            "email": "mbm@educateam.hr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Clique\\Handlers\\": "core/Handlers/",
+            "Clique\\Commands\\": ["core/Commands", "app/Commands"]
+
+
+        }
+    }
+}

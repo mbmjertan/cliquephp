@@ -1,0 +1,5 @@
+{
+  "CliqueNamespace": "Clique\\",
+  "CommandNamespace": "Clique\\Commands",
+  "Environment": "Development"
+}
